@@ -1,0 +1,16 @@
+{
+	"name": "twitch.tv autoplay disable",
+	"version": "1.0.0",
+	"description": "Disable autoplay on the twitch.tv's homepage player.",
+	"manifest_version": 3,
+	"author": "c4thewin",
+	"icons": {
+		"16": "ico16.png",
+		"48": "ico48.png",
+		"128": "ico128.png"
+	},
+	"content_scripts": [{
+		"matches": ["*://*.twitch.tv/"],
+		"js": ["ttvad.js"]
+	}]
+}
