@@ -1,1 +1,1 @@
-Disable autoplay on the twitch.tv's homepage player.
+Disable autoplay on twitch.tv's homepage player.
